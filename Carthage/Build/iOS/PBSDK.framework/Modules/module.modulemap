@@ -1,0 +1,11 @@
+framework module PBSDK {
+  umbrella header "PBSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module PBSDK.Swift {
+    header "PBSDK-Swift.h"
+    requires objc
+}
