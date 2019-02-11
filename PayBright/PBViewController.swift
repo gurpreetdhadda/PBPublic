@@ -16,13 +16,16 @@ public protocol PBWebViewDelegate: class {
     
     func userDidCancel()
     
-    //func receivedCallback()
+    func parametersReceived(params: [String: Any]?)
     
     func transactionComplete(success: Bool, params: [String: String])
 }
 
 
 public class PBViewController: UIViewController, WKNavigationDelegate, SFSafariViewControllerDelegate, UIWebViewDelegate {
+    
+    
+    var isFrance: Bool = false
     
     
     var pbwkWebView: WKWebView!
@@ -57,6 +60,9 @@ public class PBViewController: UIViewController, WKNavigationDelegate, SFSafariV
     
     func setup() {
         
+        self.navigationController?.isNavigationBarHidden = true
+        
+        
         var request = URLRequest(url: URL(string: "\(PBConfig.shared.environment == .Sandbox ? PBConstants.TEST_URL : PBConstants.LIVE_URL)checkout/applicationform.aspx")!)
         
         request.httpMethod = "POST"
@@ -68,7 +74,15 @@ public class PBViewController: UIViewController, WKNavigationDelegate, SFSafariV
         request.httpBody = postString.data(using: .utf8)
         
         
-        progressHUD = PBPRogressHUD(text: "Launching PayBright")
+        if isFrance == true
+        {
+            progressHUD = PBPRogressHUD(text: "Lancement PayBright")
+        }
+            
+        else
+        {
+            progressHUD = PBPRogressHUD(text: "Launching PayBright")
+        }
         
         
         self.view.addSubview(progressHUD!)
@@ -117,6 +131,12 @@ public class PBViewController: UIViewController, WKNavigationDelegate, SFSafariV
         
         
         productDict?.forEach { rawDict[$0] = $1 }
+        
+        
+        isFrance = productDict?["x_shop_country"] as! String == "CA-fr"
+        
+        
+        delegate?.parametersReceived(params: productDict)
         
         
         // Sort dictionary and get the string
@@ -252,6 +272,17 @@ public class PBViewController: UIViewController, WKNavigationDelegate, SFSafariV
         pbwkWebView.translatesAutoresizingMaskIntoConstraints = false
         
         
+        if UIDevice.current.userInterfaceIdiom == .pad
+        {
+            pbwkWebView.customUserAgent = "Mozilla/5.0 (iPad; CPU OS 7_0 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) CriOS/30.0.1599.12 Mobile/11A465 Safari/8536.25 (3B92C18B-D9DE-4CB7-A02A-22FD2AF17C8F)"
+        }
+        
+        else
+        {
+            pbwkWebView.customUserAgent = "Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0 Mobile/15E148 Safari/604.1"
+        }
+        
+        
         containerV.addSubview(pbwkWebView)
         
         
@@ -269,16 +300,7 @@ public class PBViewController: UIViewController, WKNavigationDelegate, SFSafariV
         pbwkWebView.navigationDelegate = self
         
         
-        pbwkWebView.evaluateJavaScript("navigator.userAgent") { (userAgent, error) in
-            
-            print("User agent: \(String(describing: userAgent))")
-            
-            
-            self.pbwkWebView.customUserAgent = userAgent as? String
-            
-            
-            self.pbwkWebView.load(request)
-        }
+        pbwkWebView.load(request)
     }
     
     
