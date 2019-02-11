@@ -269,7 +269,16 @@ public class PBViewController: UIViewController, WKNavigationDelegate, SFSafariV
         pbwkWebView.navigationDelegate = self
         
         
-        pbwkWebView.load(request)
+        pbwkWebView.evaluateJavaScript("navigator.userAgent") { (userAgent, error) in
+            
+            print("User agent: \(String(describing: userAgent))")
+            
+            
+            self.pbwkWebView.customUserAgent = userAgent as? String
+            
+            
+            self.pbwkWebView.load(request)
+        }
     }
     
     

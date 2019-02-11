@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "container:PBSDK.xcodeproj">
+      location = "container:/SportsWizz/Documents/Personal/Carthage/PBSDK/PayBright.xcodeproj">
    </FileRef>
 </Workspace>

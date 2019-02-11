@@ -42,7 +42,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6B4931B42201EA8500D52D54 /* PBSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PBSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B4931B42201EA8500D52D54 /* PayBright.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PayBright.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B4931B72201EA8500D52D54 /* PBSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PBSDK.h; sourceTree = "<group>"; };
 		6B4931B82201EA8500D52D54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6B4931BF2201EFFA00D52D54 /* PBCustomer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PBCustomer.swift; sourceTree = "<group>"; };
@@ -57,7 +57,7 @@
 		6B4931C82201EFFB00D52D54 /* PBProduct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PBProduct.swift; sourceTree = "<group>"; };
 		6B4931C92201EFFB00D52D54 /* PBViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PBViewController.swift; sourceTree = "<group>"; };
 		6B4931CA2201EFFB00D52D54 /* PBInstance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PBInstance.swift; sourceTree = "<group>"; };
-		6B493218220328D900D52D54 /* PBSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PBSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B493218220328D900D52D54 /* PayBrightDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayBrightDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B49321A220328D900D52D54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6B49321C220328D900D52D54 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6B49321F220328D900D52D54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -96,8 +96,8 @@
 		6B4931B52201EA8500D52D54 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6B4931B42201EA8500D52D54 /* PBSDK.framework */,
-				6B493218220328D900D52D54 /* PBSDKDemo.app */,
+				6B4931B42201EA8500D52D54 /* PayBright.framework */,
+				6B493218220328D900D52D54 /* PayBrightDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -150,9 +150,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		6B4931B32201EA8500D52D54 /* PBSDK */ = {
+		6B4931B32201EA8500D52D54 /* PayBright */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6B4931BC2201EA8500D52D54 /* Build configuration list for PBXNativeTarget "PBSDK" */;
+			buildConfigurationList = 6B4931BC2201EA8500D52D54 /* Build configuration list for PBXNativeTarget "PayBright" */;
 			buildPhases = (
 				6B4931AF2201EA8500D52D54 /* Headers */,
 				6B4931B02201EA8500D52D54 /* Sources */,
@@ -163,14 +163,14 @@
 			);
 			dependencies = (
 			);
-			name = PBSDK;
+			name = PayBright;
 			productName = PBSDK;
-			productReference = 6B4931B42201EA8500D52D54 /* PBSDK.framework */;
+			productReference = 6B4931B42201EA8500D52D54 /* PayBright.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		6B493217220328D900D52D54 /* PBSDKDemo */ = {
+		6B493217220328D900D52D54 /* PayBrightDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6B493227220328DA00D52D54 /* Build configuration list for PBXNativeTarget "PBSDKDemo" */;
+			buildConfigurationList = 6B493227220328DA00D52D54 /* Build configuration list for PBXNativeTarget "PayBrightDemo" */;
 			buildPhases = (
 				6B493214220328D900D52D54 /* Sources */,
 				6B493215220328D900D52D54 /* Frameworks */,
@@ -180,9 +180,9 @@
 			);
 			dependencies = (
 			);
-			name = PBSDKDemo;
+			name = PayBrightDemo;
 			productName = PBSDKDemo;
-			productReference = 6B493218220328D900D52D54 /* PBSDKDemo.app */;
+			productReference = 6B493218220328D900D52D54 /* PayBrightDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -207,7 +207,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6B4931AE2201EA8500D52D54 /* Build configuration list for PBXProject "PBSDK" */;
+			buildConfigurationList = 6B4931AE2201EA8500D52D54 /* Build configuration list for PBXProject "PayBright" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -220,9 +220,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6B4931B32201EA8500D52D54 /* PBSDK */,
+				6B4931B32201EA8500D52D54 /* PayBright */,
 				6B4931D82202E00F00D52D54 /* BuildFatFramework */,
-				6B493217220328D900D52D54 /* PBSDKDemo */,
+				6B493217220328D900D52D54 /* PayBrightDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -548,7 +548,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6B4931AE2201EA8500D52D54 /* Build configuration list for PBXProject "PBSDK" */ = {
+		6B4931AE2201EA8500D52D54 /* Build configuration list for PBXProject "PayBright" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6B4931BA2201EA8500D52D54 /* Debug */,
@@ -557,7 +557,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6B4931BC2201EA8500D52D54 /* Build configuration list for PBXNativeTarget "PBSDK" */ = {
+		6B4931BC2201EA8500D52D54 /* Build configuration list for PBXNativeTarget "PayBright" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6B4931BD2201EA8500D52D54 /* Debug */,
@@ -575,7 +575,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6B493227220328DA00D52D54 /* Build configuration list for PBXNativeTarget "PBSDKDemo" */ = {
+		6B493227220328DA00D52D54 /* Build configuration list for PBXNativeTarget "PayBrightDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6B493228220328DA00D52D54 /* Debug */,
