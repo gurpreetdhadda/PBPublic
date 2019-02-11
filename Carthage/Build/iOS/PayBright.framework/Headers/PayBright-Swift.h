@@ -180,19 +180,19 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_attribute(external_source_symbol)
 # pragma push_macro("any")
 # undef any
-# pragma clang attribute push(__attribute__((external_source_symbol(language="Swift", defined_in="PBSDK",generated_declaration))), apply_to=any(function,enum,objc_interface,objc_category,objc_protocol))
+# pragma clang attribute push(__attribute__((external_source_symbol(language="Swift", defined_in="PayBright",generated_declaration))), apply_to=any(function,enum,objc_interface,objc_category,objc_protocol))
 # pragma pop_macro("any")
 #endif
 
 
-SWIFT_CLASS("_TtC5PBSDK8PBConfig")
+SWIFT_CLASS("_TtC9PayBright8PBConfig")
 @interface PBConfig : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
 @end
 
 
-SWIFT_CLASS("_TtC5PBSDK5PBLog")
+SWIFT_CLASS("_TtC9PayBright5PBLog")
 @interface PBLog : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
@@ -205,7 +205,7 @@ SWIFT_CLASS("_TtC5PBSDK5PBLog")
 @class NSBundle;
 @class NSCoder;
 
-SWIFT_CLASS("_TtC5PBSDK16PBViewController")
+SWIFT_CLASS("_TtC9PayBright16PBViewController")
 @interface PBViewController : UIViewController <SFSafariViewControllerDelegate, UIWebViewDelegate, WKNavigationDelegate>
 - (void)viewDidLoad;
 - (void)safariViewControllerDidFinish:(SFSafariViewController * _Nonnull)controller;
