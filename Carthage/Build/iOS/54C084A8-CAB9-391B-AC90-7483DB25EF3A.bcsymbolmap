@@ -40,11 +40,11 @@ _$SSS_SStML
 ___swift_reflection_version
 _objc_classes
 Apple LLVM version 10.0.0 (clang-1000.11.45.1)
--emit-bc /SportsWizz/Documents/Personal/Carthage/PBSDK/PBSDK/PBCustomer.swift /SportsWizz/Documents/Personal/Carthage/PBSDK/PBSDK/PBInstance.swift /SportsWizz/Documents/Personal/Carthage/PBSDK/PBSDK/PBConfig.swift /SportsWizz/Documents/Personal/Carthage/PBSDK/PBSDK/PBViewController.swift /SportsWizz/Documents/Personal/Carthage/PBSDK/PBSDK/PBConstants.swift /SportsWizz/Documents/Personal/Carthage/PBSDK/PBSDK/PBCustomerShipping.swift /SportsWizz/Documents/Personal/Carthage/PBSDK/PBSDK/PBHMAC.swift /SportsWizz/Documents/Personal/Carthage/PBSDK/PBSDK/PBLog.swift /SportsWizz/Documents/Personal/Carthage/PBSDK/PBSDK/PBProduct.swift /SportsWizz/Documents/Personal/Carthage/PBSDK/PBSDK/PBPRogressHUD.swift /SportsWizz/Documents/Personal/Carthage/PBSDK/PBSDK/PBCustomerBilling.swift -supplementary-output-file-map <temporary-file> -target armv7-apple-ios10.0 -enable-objc-interop -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk -I /Users/manpreetsingh/Library/Developer/Xcode/DerivedData/PBSDK-gxzjsuozwgjztfdiejgscujyskkd/Build/Intermediates.noindex/ArchiveIntermediates/PayBright/BuildProductsPath/Release-iphoneos -F /Users/manpreetsingh/Library/Developer/Xcode/DerivedData/PBSDK-gxzjsuozwgjztfdiejgscujyskkd/Build/Intermediates.noindex/ArchiveIntermediates/PayBright/BuildProductsPath/Release-iphoneos -g -module-cache-path /Users/manpreetsingh/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -swift-version 4.2 -O -serialize-debugging-options -Xcc -I/Users/manpreetsingh/Library/Developer/Xcode/DerivedData/PBSDK-gxzjsuozwgjztfdiejgscujyskkd/Build/Intermediates.noindex/ArchiveIntermediates/PayBright/IntermediateBuildFilesPath/PayBright.build/Release-iphoneos/PayBright.build/swift-overrides.hmap -Xcc -iquote -Xcc /Users/manpreetsingh/Library/Developer/Xcode/DerivedData/PBSDK-gxzjsuozwgjztfdiejgscujyskkd/Build/Intermediates.noindex/ArchiveIntermediates/PayBright/IntermediateBuildFilesPath/PayBright.build/Release-iphoneos/PayBright.build/PayBright-generated-files.hmap -Xcc -I/Users/manpreetsingh/Library/Developer/Xcode/DerivedData/PBSDK-gxzjsuozwgjztfdiejgscujyskkd/Build/Intermediates.noindex/ArchiveIntermediates/PayBright/IntermediateBuildFilesPath/PayBright.build/Release-iphoneos/PayBright.build/PayBright-own-target-headers.hmap -Xcc -I/Users/manpreetsingh/Library/Developer/Xcode/DerivedData/PBSDK-gxzjsuozwgjztfdiejgscujyskkd/Build/Intermediates.noindex/ArchiveIntermediates/PayBright/IntermediateBuildFilesPath/PayBright.build/Release-iphoneos/PayBright.build/PayBright-all-non-framework-target-headers.hmap -Xcc -ivfsoverlay -Xcc /Users/manpreetsingh/Library/Developer/Xcode/DerivedData/PBSDK-gxzjsuozwgjztfdiejgscujyskkd/Build/Intermediates.noindex/ArchiveIntermediates/PayBright/IntermediateBuildFilesPath/PayBright.build/Release-iphoneos/PayBright.build/all-product-headers.yaml -Xcc -iquote -Xcc /Users/manpreetsingh/Library/Developer/Xcode/DerivedData/PBSDK-gxzjsuozwgjztfdiejgscujyskkd/Build/Intermediates.noindex/ArchiveIntermediates/PayBright/IntermediateBuildFilesPath/PayBright.build/Release-iphoneos/PayBright.build/PayBright-project-headers.hmap -Xcc -I/Users/manpreetsingh/Library/Developer/Xcode/DerivedData/PBSDK-gxzjsuozwgjztfdiejgscujyskkd/Build/Intermediates.noindex/ArchiveIntermediates/PayBright/BuildProductsPath/Release-iphoneos/include -Xcc -I/Users/manpreetsingh/Library/Developer/Xcode/DerivedData/PBSDK-gxzjsuozwgjztfdiejgscujyskkd/Build/Intermediates.noindex/ArchiveIntermediates/PayBright/IntermediateBuildFilesPath/PayBright.build/Release-iphoneos/PayBright.build/DerivedSources/armv7 -Xcc -I/Users/manpreetsingh/Library/Developer/Xcode/DerivedData/PBSDK-gxzjsuozwgjztfdiejgscujyskkd/Build/Intermediates.noindex/ArchiveIntermediates/PayBright/IntermediateBuildFilesPath/PayBright.build/Release-iphoneos/PayBright.build/DerivedSources -Xcc -working-directory/SportsWizz/Documents/Personal/Carthage/PBSDK -module-name PayBright -num-threads 4 -o /Users/manpreetsingh/Library/Developer/Xcode/DerivedData/PBSDK-gxzjsuozwgjztfdiejgscujyskkd/Build/Intermediates.noindex/ArchiveIntermediates/PayBright/IntermediateBuildFilesPath/PayBright.build/Release-iphoneos/PayBright.build/Objects-normal/armv7/PBCustomer.bc -o /Users/manpreetsingh/Library/Developer/Xcode/DerivedData/PBSDK-gxzjsuozwgjztfdiejgscujyskkd/Build/Intermediates.noindex/ArchiveIntermediates/PayBright/IntermediateBuildFilesPath/PayBright.build/Release-iphoneos/PayBright.build/Objects-normal/armv7/PBInstance.bc -o /Users/manpreetsingh/Library/Developer/Xcode/DerivedData/PBSDK-gxzjsuozwgjztfdiejgscujyskkd/Build/Intermediates.noindex/ArchiveIntermediates/PayBright/IntermediateBuildFilesPath/PayBright.build/Release-iphoneos/PayBright.build/Objects-normal/armv7/PBConfig.bc -o /Users/manpreetsingh/Library/Developer/Xcode/DerivedData/PBSDK-gxzjsuozwgjztfdiejgscujyskkd/Build/Intermediates.noindex/ArchiveIntermediates/PayBright/IntermediateBuildFilesPath/PayBright.build/Release-iphoneos/PayBright.build/Objects-normal/armv7/PBViewController.bc -o /Users/manpreetsingh/Library/Developer/Xcode/DerivedData/PBSDK-gxzjsuozwgjztfdiejgscujyskkd/Build/Intermediates.noindex/ArchiveIntermediates/PayBright/IntermediateBuildFilesPath/PayBright.build/Release-iphoneos/PayBright.build/Objects-normal/armv7/PBConstants.bc -o /Users/manpreetsingh/Library/Developer/Xcode/DerivedData/PBSDK-gxzjsuozwgjztfdiejgscujyskkd/Build/Intermediates.noindex/ArchiveIntermediates/PayBright/IntermediateBuildFilesPath/PayBright.build/Release-iphoneos/PayBright.build/Objects-normal/armv7/PBCustomerShipping.bc -o /Users/manpreetsingh/Library/Developer/Xcode/DerivedData/PBSDK-gxzjsuozwgjztfdiejgscujyskkd/Build/Intermediates.noindex/ArchiveIntermediates/PayBright/IntermediateBuildFilesPath/PayBright.build/Release-iphoneos/PayBright.build/Objects-normal/armv7/PBHMAC.bc -o /Users/manpreetsingh/Library/Developer/Xcode/DerivedData/PBSDK-gxzjsuozwgjztfdiejgscujyskkd/Build/Intermediates.noindex/ArchiveIntermediates/PayBright/IntermediateBuildFilesPath/PayBright.build/Release-iphoneos/PayBright.build/Objects-normal/armv7/PBLog.bc -o /Users/manpreetsingh/Library/Developer/Xcode/DerivedData/PBSDK-gxzjsuozwgjztfdiejgscujyskkd/Build/Intermediates.noindex/ArchiveIntermediates/PayBright/IntermediateBuildFilesPath/PayBright.build/Release-iphoneos/PayBright.build/Objects-normal/armv7/PBProduct.bc -o /Users/manpreetsingh/Library/Developer/Xcode/DerivedData/PBSDK-gxzjsuozwgjztfdiejgscujyskkd/Build/Intermediates.noindex/ArchiveIntermediates/PayBright/IntermediateBuildFilesPath/PayBright.build/Release-iphoneos/PayBright.build/Objects-normal/armv7/PBPRogressHUD.bc -o /Users/manpreetsingh/Library/Developer/Xcode/DerivedData/PBSDK-gxzjsuozwgjztfdiejgscujyskkd/Build/Intermediates.noindex/ArchiveIntermediates/PayBright/IntermediateBuildFilesPath/PayBright.build/Release-iphoneos/PayBright.build/Objects-normal/armv7/PBCustomerBilling.bc -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift
+-emit-bc /SportsWizz/Documents/Personal/Carthage/PBSDK/PayBright/PBCustomer.swift /SportsWizz/Documents/Personal/Carthage/PBSDK/PayBright/PBInstance.swift /SportsWizz/Documents/Personal/Carthage/PBSDK/PayBright/PBConfig.swift /SportsWizz/Documents/Personal/Carthage/PBSDK/PayBright/PBViewController.swift /SportsWizz/Documents/Personal/Carthage/PBSDK/PayBright/PBConstants.swift /SportsWizz/Documents/Personal/Carthage/PBSDK/PayBright/PBCustomerShipping.swift /SportsWizz/Documents/Personal/Carthage/PBSDK/PayBright/PBHMAC.swift /SportsWizz/Documents/Personal/Carthage/PBSDK/PayBright/PBLog.swift /SportsWizz/Documents/Personal/Carthage/PBSDK/PayBright/PBProduct.swift /SportsWizz/Documents/Personal/Carthage/PBSDK/PayBright/PBPRogressHUD.swift /SportsWizz/Documents/Personal/Carthage/PBSDK/PayBright/PBCustomerBilling.swift -supplementary-output-file-map <temporary-file> -target armv7-apple-ios10.0 -enable-objc-interop -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk -I /Users/manpreetsingh/Library/Developer/Xcode/DerivedData/PayBright-cdqmmgvswymrccfvrwqvcumgyjji/Build/Intermediates.noindex/ArchiveIntermediates/PayBright/BuildProductsPath/Release-iphoneos -F /Users/manpreetsingh/Library/Developer/Xcode/DerivedData/PayBright-cdqmmgvswymrccfvrwqvcumgyjji/Build/Intermediates.noindex/ArchiveIntermediates/PayBright/BuildProductsPath/Release-iphoneos -g -module-cache-path /Users/manpreetsingh/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -swift-version 4.2 -O -serialize-debugging-options -Xcc -I/Users/manpreetsingh/Library/Developer/Xcode/DerivedData/PayBright-cdqmmgvswymrccfvrwqvcumgyjji/Build/Intermediates.noindex/ArchiveIntermediates/PayBright/IntermediateBuildFilesPath/PayBright.build/Release-iphoneos/PayBright.build/swift-overrides.hmap -Xcc -iquote -Xcc /Users/manpreetsingh/Library/Developer/Xcode/DerivedData/PayBright-cdqmmgvswymrccfvrwqvcumgyjji/Build/Intermediates.noindex/ArchiveIntermediates/PayBright/IntermediateBuildFilesPath/PayBright.build/Release-iphoneos/PayBright.build/PayBright-generated-files.hmap -Xcc -I/Users/manpreetsingh/Library/Developer/Xcode/DerivedData/PayBright-cdqmmgvswymrccfvrwqvcumgyjji/Build/Intermediates.noindex/ArchiveIntermediates/PayBright/IntermediateBuildFilesPath/PayBright.build/Release-iphoneos/PayBright.build/PayBright-own-target-headers.hmap -Xcc -I/Users/manpreetsingh/Library/Developer/Xcode/DerivedData/PayBright-cdqmmgvswymrccfvrwqvcumgyjji/Build/Intermediates.noindex/ArchiveIntermediates/PayBright/IntermediateBuildFilesPath/PayBright.build/Release-iphoneos/PayBright.build/PayBright-all-non-framework-target-headers.hmap -Xcc -ivfsoverlay -Xcc /Users/manpreetsingh/Library/Developer/Xcode/DerivedData/PayBright-cdqmmgvswymrccfvrwqvcumgyjji/Build/Intermediates.noindex/ArchiveIntermediates/PayBright/IntermediateBuildFilesPath/PayBright.build/Release-iphoneos/PayBright.build/all-product-headers.yaml -Xcc -iquote -Xcc /Users/manpreetsingh/Library/Developer/Xcode/DerivedData/PayBright-cdqmmgvswymrccfvrwqvcumgyjji/Build/Intermediates.noindex/ArchiveIntermediates/PayBright/IntermediateBuildFilesPath/PayBright.build/Release-iphoneos/PayBright.build/PayBright-project-headers.hmap -Xcc -I/Users/manpreetsingh/Library/Developer/Xcode/DerivedData/PayBright-cdqmmgvswymrccfvrwqvcumgyjji/Build/Intermediates.noindex/ArchiveIntermediates/PayBright/BuildProductsPath/Release-iphoneos/include -Xcc -I/Users/manpreetsingh/Library/Developer/Xcode/DerivedData/PayBright-cdqmmgvswymrccfvrwqvcumgyjji/Build/Intermediates.noindex/ArchiveIntermediates/PayBright/IntermediateBuildFilesPath/PayBright.build/Release-iphoneos/PayBright.build/DerivedSources/armv7 -Xcc -I/Users/manpreetsingh/Library/Developer/Xcode/DerivedData/PayBright-cdqmmgvswymrccfvrwqvcumgyjji/Build/Intermediates.noindex/ArchiveIntermediates/PayBright/IntermediateBuildFilesPath/PayBright.build/Release-iphoneos/PayBright.build/DerivedSources -Xcc -working-directory/SportsWizz/Documents/Personal/Carthage/PBSDK -module-name PayBright -num-threads 4 -o /Users/manpreetsingh/Library/Developer/Xcode/DerivedData/PayBright-cdqmmgvswymrccfvrwqvcumgyjji/Build/Intermediates.noindex/ArchiveIntermediates/PayBright/IntermediateBuildFilesPath/PayBright.build/Release-iphoneos/PayBright.build/Objects-normal/armv7/PBCustomer.bc -o /Users/manpreetsingh/Library/Developer/Xcode/DerivedData/PayBright-cdqmmgvswymrccfvrwqvcumgyjji/Build/Intermediates.noindex/ArchiveIntermediates/PayBright/IntermediateBuildFilesPath/PayBright.build/Release-iphoneos/PayBright.build/Objects-normal/armv7/PBInstance.bc -o /Users/manpreetsingh/Library/Developer/Xcode/DerivedData/PayBright-cdqmmgvswymrccfvrwqvcumgyjji/Build/Intermediates.noindex/ArchiveIntermediates/PayBright/IntermediateBuildFilesPath/PayBright.build/Release-iphoneos/PayBright.build/Objects-normal/armv7/PBConfig.bc -o /Users/manpreetsingh/Library/Developer/Xcode/DerivedData/PayBright-cdqmmgvswymrccfvrwqvcumgyjji/Build/Intermediates.noindex/ArchiveIntermediates/PayBright/IntermediateBuildFilesPath/PayBright.build/Release-iphoneos/PayBright.build/Objects-normal/armv7/PBViewController.bc -o /Users/manpreetsingh/Library/Developer/Xcode/DerivedData/PayBright-cdqmmgvswymrccfvrwqvcumgyjji/Build/Intermediates.noindex/ArchiveIntermediates/PayBright/IntermediateBuildFilesPath/PayBright.build/Release-iphoneos/PayBright.build/Objects-normal/armv7/PBConstants.bc -o /Users/manpreetsingh/Library/Developer/Xcode/DerivedData/PayBright-cdqmmgvswymrccfvrwqvcumgyjji/Build/Intermediates.noindex/ArchiveIntermediates/PayBright/IntermediateBuildFilesPath/PayBright.build/Release-iphoneos/PayBright.build/Objects-normal/armv7/PBCustomerShipping.bc -o /Users/manpreetsingh/Library/Developer/Xcode/DerivedData/PayBright-cdqmmgvswymrccfvrwqvcumgyjji/Build/Intermediates.noindex/ArchiveIntermediates/PayBright/IntermediateBuildFilesPath/PayBright.build/Release-iphoneos/PayBright.build/Objects-normal/armv7/PBHMAC.bc -o /Users/manpreetsingh/Library/Developer/Xcode/DerivedData/PayBright-cdqmmgvswymrccfvrwqvcumgyjji/Build/Intermediates.noindex/ArchiveIntermediates/PayBright/IntermediateBuildFilesPath/PayBright.build/Release-iphoneos/PayBright.build/Objects-normal/armv7/PBLog.bc -o /Users/manpreetsingh/Library/Developer/Xcode/DerivedData/PayBright-cdqmmgvswymrccfvrwqvcumgyjji/Build/Intermediates.noindex/ArchiveIntermediates/PayBright/IntermediateBuildFilesPath/PayBright.build/Release-iphoneos/PayBright.build/Objects-normal/armv7/PBProduct.bc -o /Users/manpreetsingh/Library/Developer/Xcode/DerivedData/PayBright-cdqmmgvswymrccfvrwqvcumgyjji/Build/Intermediates.noindex/ArchiveIntermediates/PayBright/IntermediateBuildFilesPath/PayBright.build/Release-iphoneos/PayBright.build/Objects-normal/armv7/PBPRogressHUD.bc -o /Users/manpreetsingh/Library/Developer/Xcode/DerivedData/PayBright-cdqmmgvswymrccfvrwqvcumgyjji/Build/Intermediates.noindex/ArchiveIntermediates/PayBright/IntermediateBuildFilesPath/PayBright.build/Release-iphoneos/PayBright.build/Objects-normal/armv7/PBCustomerBilling.bc -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift
 <swift-imported-modules>
 /SportsWizz/Documents/Personal/Carthage/PBSDK
 Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)
-/SportsWizz/Documents/Personal/Carthage/PBSDK/PBSDK/PBCustomer.swift
+/SportsWizz/Documents/Personal/Carthage/PBSDK/PayBright/PBCustomer.swift
 $S9PayBright17PBCustomerBillingC08customerD7Company33_68251839DE4DB5E033E7B00FDFB2611CLLSSSgvpfi
 <compiler-generated>
 $S9PayBright17PBCustomerBillingC08customerD8Address233_68251839DE4DB5E033E7B00FDFB2611CLLSSSgvpfi
@@ -65,7 +65,7 @@ init
 $S9PayBright8PBConfigC11environmentAC13PBEnvironmentOvpfi
 deinit
 PBCustomer.swift
-/SportsWizz/Documents/Personal/Carthage/PBSDK/PBSDK
+/SportsWizz/Documents/Personal/Carthage/PBSDK/PayBright
 customerDict
 subscript.set
 $Ss24_VariantDictionaryBufferO17nativeUpdateValue_6forKeyq_Sgq__xtFSS_SSTg5
@@ -89,7 +89,7 @@ _symbolic 9PayBright17PBCustomerBillingC
 _symbolic 9PayBright18PBCustomerShippingC
 _symbolic 9PayBright9PBProductC
 _$S9PayBright10PBInstanceCMF
-/SportsWizz/Documents/Personal/Carthage/PBSDK/PBSDK/PBInstance.swift
+/SportsWizz/Documents/Personal/Carthage/PBSDK/PayBright/PBInstance.swift
 PBInstance.swift
 $S9PayBright10PBInstanceCMa
 _$S9PayBright8PBConfigC13PBEnvironmentOSQAASQ2eeoiySbx_xtFZTW
@@ -143,7 +143,7 @@ _$S9PayBright8PBConfigC6sharedACvgZ6StaticL_VMn
 _symbolic 9PayBright8PBConfigC13PBEnvironmentO
 _symbolic $Ss16RawRepresentableP
 _$S9PayBright8PBConfigC13PBEnvironmentOSYAAMA
-/SportsWizz/Documents/Personal/Carthage/PBSDK/PBSDK/PBConfig.swift
+/SportsWizz/Documents/Personal/Carthage/PBSDK/PayBright/PBConfig.swift
 $S9PayBright8PBConfigC13PBEnvironmentOMa
 $S9PayBright8PBConfigC13PBEnvironmentOwui
 $S9PayBright8PBConfigC13PBEnvironmentOwup
@@ -382,7 +382,7 @@ _$SSo26InlineRefCountsPlaceholderaMF
 _$SSo26InlineRefCountsPlaceholderaMB
 l_OBJC_LABEL_PROTOCOL_$_NSObject
 l_OBJC_PROTOCOL_REFERENCE_$_NSObject
-/SportsWizz/Documents/Personal/Carthage/PBSDK/PBSDK/PBViewController.swift
+/SportsWizz/Documents/Personal/Carthage/PBSDK/PayBright/PBViewController.swift
 $SSo26InlineRefCountsPlaceholderaMa
 $SSS3key_yp5valuetSgWOh
 $SSS3key_yp5valuetWOh
@@ -727,7 +727,7 @@ _$S9PayBright11PBConstantsCMf
 _symbolic ____ 9PayBright11PBConstantsC
 _$S9PayBright11PBConstantsCMF
 _$S9PayBright11PBConstantsCN
-/SportsWizz/Documents/Personal/Carthage/PBSDK/PBSDK/PBConstants.swift
+/SportsWizz/Documents/Personal/Carthage/PBSDK/PayBright/PBConstants.swift
 $S9PayBright11PBConstantsCMa
 globalinit_024_A314E8A65F3E3E569863583b4B0F0H1B_func2
 globalinit_024_A314E8A65F3E3E569863583b4B0F0H1B_func1
@@ -746,7 +746,7 @@ _$S9PayBright18PBCustomerShippingCML
 _$S9PayBright18PBCustomerShippingCMf
 _symbolic ____ 9PayBright18PBCustomerShippingC
 _$S9PayBright18PBCustomerShippingCMF
-/SportsWizz/Documents/Personal/Carthage/PBSDK/PBSDK/PBCustomerShipping.swift
+/SportsWizz/Documents/Personal/Carthage/PBSDK/PayBright/PBCustomerShipping.swift
 PBCustomerShipping.swift
 customerShippingDict
 $S9PayBright18PBCustomerShippingCMa
@@ -769,7 +769,7 @@ _$S9PayBright6PBHMACC17UTF8EncodedStringVMn
 _$S9PayBright13HMACAlgorithmOMn
 _$SSo8NSStringCML
 _$S9PayBright6PBHMACCN
-/SportsWizz/Documents/Personal/Carthage/PBSDK/PBSDK/PBHMAC.swift
+/SportsWizz/Documents/Personal/Carthage/PBSDK/PayBright/PBHMAC.swift
 $S9PayBright6PBHMACCMa
 $SSnyxGs10Collectionss10StrideableRzs13SignedInteger6StrideRpzrlSl9formIndex5aftery0G0Qzz_tFTWSi_Tg5
 $SSlsE9formIndex5aftery0B0Qzz_tFSnySiG_Tg5
@@ -789,7 +789,7 @@ _symbolic ____ 9PayBright5PBLogC6sharedACvgZ6StaticL_V
 _$S9PayBright5PBLogC6sharedACvgZ6StaticL_VMF
 _$S9PayBright5PBLogC6sharedACvgZ6StaticL_VMXX
 _$S9PayBright5PBLogC6sharedACvgZ6StaticL_VMn
-/SportsWizz/Documents/Personal/Carthage/PBSDK/PBSDK/PBLog.swift
+/SportsWizz/Documents/Personal/Carthage/PBSDK/PayBright/PBLog.swift
 $S9PayBright5PBLogCMa
 PBLog.swift
 _$S9PayBright9PBProductC6amount8currency11description7invoice6planID8platform9reference11shopCountry0L4Name11urlCallback0O6Cancel0O8CompleteACSd_S2SSgA2PS7StcfcTf4ngXgggnnnnnnnn_n
@@ -812,7 +812,7 @@ _symbolic ____ 9PayBright9PBProductC
 _$S9PayBright9PBProductCMF
 _symbolic Sd
 _$Ss37_HashableTypedNativeDictionaryStorageCySSypGML
-/SportsWizz/Documents/Personal/Carthage/PBSDK/PBSDK/PBProduct.swift
+/SportsWizz/Documents/Personal/Carthage/PBSDK/PayBright/PBProduct.swift
 $SSS_yptWOc
 PBProduct.swift
 $Ss23_NativeDictionaryBufferVss8HashableRzrlE9fromArrayyAByxq_GSayx_q_tGFZSS_ypTg5Tf4nd_n
@@ -854,7 +854,7 @@ _$SSo12UIBlurEffectCMF
 _$SSo18UIVisualEffectViewCMF
 _$S9PayBright13PBPRogressHUDCN
 _OBJC_CLASS_$__TtC9PayBright13PBPRogressHUD
-/SportsWizz/Documents/Personal/Carthage/PBSDK/PBSDK/PBPRogressHUD.swift
+/SportsWizz/Documents/Personal/Carthage/PBSDK/PayBright/PBPRogressHUD.swift
 $S9PayBright13PBPRogressHUDCMa
 $Ss12StaticStringV14withUTF8BufferyxxSRys5UInt8VGXElFyt_Tgq5
 $SSRys5UInt8VGIgy_ACytIegyr_TR
@@ -880,7 +880,7 @@ _$S9PayBright17PBCustomerBillingCML
 _$S9PayBright17PBCustomerBillingCMf
 _symbolic ____ 9PayBright17PBCustomerBillingC
 _$S9PayBright17PBCustomerBillingCMF
-/SportsWizz/Documents/Personal/Carthage/PBSDK/PBSDK/PBCustomerBilling.swift
+/SportsWizz/Documents/Personal/Carthage/PBSDK/PayBright/PBCustomerBilling.swift
 __swift_assign_boxed_opaque_existential_0
 PBCustomerBilling.swift
 $Ss23_NativeDictionaryBufferVss8HashableRzrlE12unsafeAddNew3key5valueyx_q_tFSS_ypTg5Tf4xnn_n
@@ -895,4 +895,4 @@ $S9PayBright17PBCustomerBillingCMa
 _dictionaryUpCast
 $SSD5countSivgSS_SSTg5
 Apple LLVM version 10.0.0 (clang-1000.11.45.5)
-/Users/manpreetsingh/Library/Developer/Xcode/DerivedData/PBSDK-gxzjsuozwgjztfdiejgscujyskkd/Build/Intermediates.noindex/ArchiveIntermediates/PayBright/IntermediateBuildFilesPath/PayBright.build/Release-iphoneos/PayBright.build/DerivedSources/PayBright_vers.c
+/Users/manpreetsingh/Library/Developer/Xcode/DerivedData/PayBright-cdqmmgvswymrccfvrwqvcumgyjji/Build/Intermediates.noindex/ArchiveIntermediates/PayBright/IntermediateBuildFilesPath/PayBright.build/Release-iphoneos/PayBright.build/DerivedSources/PayBright_vers.c

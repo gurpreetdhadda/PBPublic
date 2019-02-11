@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6B493217220328D900D52D54"
-               BuildableName = "PBSDKDemo.app"
-               BlueprintName = "PBSDKDemo"
-               ReferencedContainer = "container:PBSDK.xcodeproj">
+               BuildableName = "PayBrightDemo.app"
+               BlueprintName = "PayBrightDemo"
+               ReferencedContainer = "container:PayBright.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6B493217220328D900D52D54"
-            BuildableName = "PBSDKDemo.app"
-            BlueprintName = "PBSDKDemo"
-            ReferencedContainer = "container:PBSDK.xcodeproj">
+            BuildableName = "PayBrightDemo.app"
+            BlueprintName = "PayBrightDemo"
+            ReferencedContainer = "container:PayBright.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6B493217220328D900D52D54"
-            BuildableName = "PBSDKDemo.app"
-            BlueprintName = "PBSDKDemo"
-            ReferencedContainer = "container:PBSDK.xcodeproj">
+            BuildableName = "PayBrightDemo.app"
+            BlueprintName = "PayBrightDemo"
+            ReferencedContainer = "container:PayBright.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6B493217220328D900D52D54"
-            BuildableName = "PBSDKDemo.app"
-            BlueprintName = "PBSDKDemo"
-            ReferencedContainer = "container:PBSDK.xcodeproj">
+            BuildableName = "PayBrightDemo.app"
+            BlueprintName = "PayBrightDemo"
+            ReferencedContainer = "container:PayBright.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
